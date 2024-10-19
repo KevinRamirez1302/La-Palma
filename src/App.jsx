@@ -1,13 +1,13 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { Navbar } from './views/navbar.jsx';
-import { Home } from './views/home.jsx';
+import { MainPage } from './views/mainPage.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );

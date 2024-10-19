@@ -1,18 +1,23 @@
+import Spain from '/spain-flag.png';
+
 export const Navbar = () => {
   return (
-    <nav className=" pt-3 absolute flex w-full justify-around">
-      <p className=" font-bold text-[25px]">Hola</p>
-      <ul className="flex text-[22px] gap-4 text-white font-bold">
+    <nav className=" p-2 flex items-center justify-around">
+      <div className=" flex gap-1">
+        <p className=" font-bold text-[18px] text-[#52585C]">La palma</p>
+        <img className=" w-7" src={Spain} alt="SpainFLag" />
+      </div>
+      <ul className="flex text-[15px] gap-4 text-[#52585C]">
         <li>
-          <a href="">Enjoy</a>
+          <a href="">Que visitar</a>
         </li>
         <li>
-          <a href="">History</a>
+          <a href="">Historia</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="">Contacto</a>
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};

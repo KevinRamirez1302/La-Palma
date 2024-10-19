@@ -4,7 +4,7 @@ export const Places = () => {
   return (
     <>
       <section className=" w-full h-screen px-5 py-10 flex items-center">
-        <div>
+        <div className=" w">
           <img src={Banner} alt="" />
           <img src={Banner} alt="" />
           <img src={Banner} alt="" />

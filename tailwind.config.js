@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Poppins: ['Poppins'],
+        PoppinBold: ['Poppins-Bold']
+      }
+    }
   },
-  plugins: [],
-};
+  plugins: []
+}
